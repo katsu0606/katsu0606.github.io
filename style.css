@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'anurati';
+  src: url(Anurati-Regular.otf);
+}
+
+body {
+  margin:0px;
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 76px;
+  color: white;
+  font-family: 'anurati';
+  opacity: 0.7;
+}
+
+p {
+  font-size: 24px;
+  color:white;
+  opacity: 0.8;
+}
+
+li {
+  list-style-type: none;
+  text-align: right;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  opacity: 0.7;
+  font-size: 21px;
+}
+
+#vide {
+  width: 100%;
+  min-width: 1024px;
+  position: absolute;
+}
+
+video {
+  width: 100%;
+  min-width: 1440px;
+  max-height: 1100px;
+}
